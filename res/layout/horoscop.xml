@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="90" >
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/aries"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:text="Aries" 
+                android:layout_weight="30"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+               android:drawableTop="@drawable/taurus"
+                android:text="Tauras" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_weight="30"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/gemini"
+                android:text="Gemini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="90" 
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b4"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:drawableTop="@drawable/cancer"
+                android:text="Cancer" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_weight="30"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/leo"
+                android:text="Leo" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_weight="30"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/virgo"
+                android:text="Virgo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="90" 
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b7"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:drawableTop="@drawable/libra"
+                android:text="Libra" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:drawableTop="@drawable/scorpio"
+                android:text="Scorpio" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:drawableTop="@drawable/sagittarius"
+                android:text="Sagittarius" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="90" 
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="wrap_content"
+                android:layout_weight="30"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/capricorn"
+                android:text="Capricorn" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="wrap_content"
+                android:layout_weight="30"
+                android:layout_height="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:drawableTop="@drawable/aquarius"
+                android:text="Aquarius" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                  android:background="#000000"
+                android:textColor="#ffffff"
+                android:layout_weight="30"
+                android:drawableTop="@drawable/pisces"
+                android:text="Pisces" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bAboutUs"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+              android:background="#000000"
+                android:textColor="#ffffff"
+            android:text="About Us"
+            android:typeface="monospace" />
+
+
+       
+    </LinearLayout>
+
+</ScrollView>

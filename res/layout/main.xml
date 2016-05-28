@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bAries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/aries"
+                android:text="Aries" />
+
+            <Button
+                android:id="@+id/bTauras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/taurus"
+                android:text="Tauras" />
+
+            <Button
+                android:id="@+id/bGemini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/gemini"
+                android:text="Gemini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bCancer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/cancer"
+                android:text="Cancer" />
+
+            <Button
+                android:id="@+id/bLeo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/leo"
+                android:text="Leo" />
+
+            <Button
+                android:id="@+id/bVirgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/virgo"
+                android:text="Virgo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bLibra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/libra"
+                android:text="Libra" />
+
+            <Button
+                android:id="@+id/bScorpio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/scorpio"
+                android:text="Scorpio" />
+
+            <Button
+                android:id="@+id/bSagittarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sagittarius"
+                android:text="Sagittarius" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bCapricorn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/capricorn"
+                android:text="Capricorn" />
+
+            <Button
+                android:id="@+id/bAquarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/aquarius"
+                android:text="Aquarius" />
+
+            <Button
+                android:id="@+id/bPisces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/pisces"
+                android:text="Pisces" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bAboutUs"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="About Us"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</ScrollView>
